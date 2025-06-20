@@ -1,19 +1,30 @@
-import React from 'react';
-import "./App.css";
+import React from "react";
+
+import Hero from "./Components/Home/Hero";
+import SecondSection from "./Components/Home/SecondSection";
+import ReasonsSection from "./Components/Home/ReasonsSection";
+import FixedBackgroundSection from "./Components/Home/FixedBackgroundSection";
+import ProjectsShowcase from "./Components/Home/ProjectsShowcase";
+import TeamSection from "./Components/Home/TeamSection";
+import TestimonialSection from "./Components/Home/TestimonialSection";
+import BlogSection from "./Components/Home/BlogSection";
+import Footer from "./Components/Home/Footer";
+import AboutCompany from "./Components/Home/AboutCompany";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-black">Hello React</h1>
-      <p>this is the new project </p>
-      <div className="bg-red-500">
-        <h1 className="text-3xl font-bold underline text-black">Hello world</h1>
-      </div>
-      <div className="bg-green-500">
-        <h1 className="text-3xl font-bold underline text-black">Hello green</h1>
-      </div>
-      <div className="bg-blue-500">
-        <h1 className="text-3xl font-bold underline text-black">Hello blue</h1>
-      </div>
+      <Hero />
+      <SecondSection />
+      <AboutCompany/>
+      <ReasonsSection />
+      <FixedBackgroundSection />
+      <ProjectsShowcase />
+      <TeamSection />
+      <TestimonialSection />
+      <BlogSection />
+      <Footer />
+      
     </>
   );
 }
