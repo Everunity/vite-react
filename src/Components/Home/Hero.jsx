@@ -143,8 +143,8 @@ import React, { useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight, FaWind } from "react-icons/fa";
 import "./Hero.css";
 import Logo from "../../assets/unnamed.png";
-import NewLogo from "../../assets/NewLogo.png";
-import LogoTwo from "../../assets/unnamed.jpg";
+import NewLogo from "../../assets/newLogo.png";
+
 
 const slides = [
   {

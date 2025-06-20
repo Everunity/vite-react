@@ -80,7 +80,7 @@ export default function Footer() {
           <h4 className="font-semibold text-lg mb-4">Contact Us</h4>
           <ul className="text-sm space-y-2">
             <li className="flex items-center gap-2">
-              📧 <span>info@yourdomain.com</span>
+              📧 <span>sales@everunityservices.com</span>
             </li>
             <li className="flex items-center gap-2">
               📞 <span>(+91) 9067734445</span>
