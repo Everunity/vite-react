@@ -124,3 +124,7 @@ export default function Footer() {
   );
 }
 
+
+// import React from "react";
+// import '@fortawesome/fontawesome-free/css/all.min.css';
+// import Logo from "../../assets/unnamed.png";
