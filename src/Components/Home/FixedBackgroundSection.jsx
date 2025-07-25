@@ -106,24 +106,27 @@ const FixedBackgroundSection = () => {
           {/* Right Content */}
           <div className="text-gray-700 space-y-6">
             <p>
-              Our central goal is to give clear, excellent and reasonable
-              biological counsel and administrations to public.
+              At Everunity, our mission is to provide Nagpur residents with
+              reliable, affordable, and high-quality solar energy solutions and
+              expert consultation.
             </p>
 
             {/* Progress Bars */}
-            <div>
-              <div className="mb-4">
+            <div className="space-y-4">
+              <div>
                 <div className="flex justify-between text-sm font-semibold">
-                  <span>Wind Turbines</span> <span>70%</span>
+                  <span>Expert Solar Installers in Nagpur</span>
+                  <span>70%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div className="bg-orange-500 h-2 rounded-full w-[70%]"></div>
                 </div>
               </div>
 
-              <div className="mb-4">
+              <div>
                 <div className="flex justify-between text-sm font-semibold">
-                  <span>Solar Panels</span> <span>90%</span>
+                  <span>Customized Rooftop Solar System Design</span>
+                  <span>90%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div className="bg-green-600 h-2 rounded-full w-[90%]"></div>
@@ -132,10 +135,31 @@ const FixedBackgroundSection = () => {
 
               <div>
                 <div className="flex justify-between text-sm font-semibold">
-                  <span>Hybrid Energy</span> <span>80%</span>
+                  <span>Affordable Solar Panel Installation</span>
+                  <span>80%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
-                  <div className="bg-gray-800 h-2 rounded-full w-[80%]"></div>
+                  <div className="bg-yellow-500 h-2 rounded-full w-[80%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between text-sm font-semibold">
+                  <span>5-Year Maintenance & Support</span>
+                  <span>80%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-blue-600 h-2 rounded-full w-[80%]"></div>
+                </div>
+              </div>
+
+              <div>
+                <div className="flex justify-between text-sm font-semibold">
+                  <span>Govt Subsidy & Net Metering Help</span>
+                  <span>100%</span>
+                </div>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-green-700 h-2 rounded-full w-[100%]"></div>
                 </div>
               </div>
             </div>

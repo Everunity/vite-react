@@ -9,23 +9,23 @@ import {
 const services = [
   {
     icon: <FaSolarPanel size={40} />,
-    title: "Solar Solutions",
+    title: "Solar Panel Installation in Nagpur",
     description:
-      "An ideal mix of involvement and skill to further our focus on technology advancement.",
+      "Professional rooftop solar installation with net metering and premium Tier-1 panels for homes and businesses.",
     bg: "https://images.unsplash.com/photo-1584277261043-d58a9a9400a4?auto=format&fit=crop&w=800&q=60",
   },
   {
     icon: <FaSeedling size={40} />,
-    title: "Global Optimization",
+    title: "Solar Maintenance & Cleaning",
     description:
-      "Helping industries reduce waste and achieve efficient energy transformation.",
+      "Keep your solar panels efficient with expert cleaning, wiring inspection, and inverter health checks.",
     bg: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=60",
   },
   {
     icon: <FaLightbulb size={40} />,
-    title: "Renewable Energy",
+    title: "Solar AMC in Nagpur",
     description:
-      "Empowering clean energy innovation to support sustainable development worldwide.",
+      "Affordable Annual Maintenance Contracts with routine checkups, fault repairs, and system performance optimization.",
     bg: "https://images.unsplash.com/photo-1509395062183-67c5ad6faff9?auto=format&fit=crop&w=800&q=60",
   },
 ];
@@ -55,10 +55,10 @@ const ReasonsSection = () => {
             ></div>
 
             {/* Overlay */}
-            <div className="absolute inset-0 bg-teal-900 bg-opacity-80 opacity-0 group-hover:opacity-100 transition-all duration-500 z-10"></div>
+            <div className="absolute inset-0 bg-teal-900 bg-opacity-80 opacity-0 group-hover:opacity-100 transition-all duration-500 "></div>
 
             {/* Content */}
-            <div className="relative z-20 flex flex-col items-center text-center py-16 px-6">
+            <div className="relative flex flex-col items-center text-center py-16 px-6">
               {/* Icon */}
               <div className="mb-6 transform transition-transform duration-500 group-hover:-translate-y-2">
                 <div className="bg-white p-4 rounded-full shadow-lg text-teal-700">
