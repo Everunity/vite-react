@@ -7,6 +7,8 @@ const Layout = () => {
     <>
     <Header/>
     <Outlet/>
+    {/* The Outlet component will render the matched child route */}
+    {/* This allows for nested routing and dynamic content rendering */}
     <Footer/>
     </>
   )
