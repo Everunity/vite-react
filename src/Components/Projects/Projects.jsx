@@ -30,6 +30,7 @@ const Projects = () => {
     </div>
     <div className="max-w-7xl mx-auto px-4 py-10">
       {/* Include ProjectsShowcase component here */}
+      {/* <h2 className="text-3xl font-bold mb-6 text-center">Our Solar Projects</h2> */}
       <ProjectsShowcase />
     </div>
     <div className="bg-green-800 py-10">
