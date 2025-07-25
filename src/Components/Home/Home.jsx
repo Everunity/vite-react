@@ -12,6 +12,7 @@ import AboutCompany from "./AboutCompany";
 const Home = () => {
   return (
     <>
+    {/* compnents */}
       <Hero />
       <SecondSection />
       <AboutCompany />
