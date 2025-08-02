@@ -86,9 +86,9 @@ const Header = () => {
   }, [location.pathname]);
 
   const navItems = [
-    { label: "About Us", path: "/about" },
-    { label: "Contact Us", path: "/contact" },
-    { label: "Our Services", path: "/services" },
+    { label: "About Us", path: "/about-us" },
+    { label: "Contact Us", path: "/contact-us" },
+    { label: "Our Services", path: "/our-services" },
     { label: "Projects", path: "/projects" },
     { label: "Blog", path: "/blog" },
   ];
@@ -129,7 +129,7 @@ const Header = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Link to="/contact">
+          <Link to="/contact-us">
             <button className="bg-orange-500 hover:bg-orange-600 transition px-5 py-2 rounded text-sm font-semibold text-white">
               FREE QUOTE
             </button>
@@ -167,7 +167,7 @@ const Header = () => {
             </Link>
           ))}
 
-          <Link to="/contact" onClick={() => setMobileMenuOpen(false)}>
+          <Link to="/contact-us" onClick={() => setMobileMenuOpen(false)}>
             <button className="bg-orange-500 hover:bg-orange-600 transition px-4 py-2 rounded text-sm font-semibold text-white mt-4 w-full">
               FREE QUOTE
             </button>
