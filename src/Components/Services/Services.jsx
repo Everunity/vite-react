@@ -1,5 +1,8 @@
 import React from "react";
 import Helmet from "react-helmet";
+import SolarInstallationProcess from "./SolarInstallationProcess";
+import SolarServicesSection from "./SolarServicesSection";
+import WhyChooseUs from "./WhyChooseUs";
 const Services = () => {
   return (
     <>
@@ -83,6 +86,10 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <SolarServicesSection />
+      <WhyChooseUs />
+      <SolarInstallationProcess />
+
     </>
   );
 };
